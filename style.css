@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: lightseagreen;
+}
+
+.container {
+    /* height: 6vh; */
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 300px auto;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    
+}
+
+form #fa-eye-slash {
+    padding: 10px 0;
+    cursor: pointer;
+    /* display: none; */
+}
+
+form #fa-eye {
+    display: none;
+}
+
+
+form input {
+    width: 80%;
+    padding: 10px 0;
+    font-size: 24px;
+    margin: 0 40px 0 0;
+    border: 0;
+    outline: 0;
+}
+

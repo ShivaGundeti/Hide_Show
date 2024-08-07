@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide-Show</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <div class="container">
+        
+        <form action="">
+            <input type="password" placeholder="Password" id="password">
+            <!-- <label for="visible" id="hide"><i class="fa-regular fa-eye" style="color: #808185; font-size: 20px;"></i></label> <i class="fa-regular fa-eye" id="fa-eye" style="color: #808185; font-size: 25px;"></i> -->
+             <!-- <div class="hide" id="hide"></div> -->
+             <span class="eye-icon" id="togglePassword" onclick="togglePasswordVisibility()">
+                <i class="fa fa-eye" id="closedEye"></i>
+                <i class="fa fa-eye-slash" id="openEye" style="display:none;"></i>
+            </span>
+             <!-- <div class="show"></div> -->
+
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
